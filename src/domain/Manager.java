@@ -1,5 +1,17 @@
 package domain;
+/**
+ * Клас, який описує менеджера 
+ * @author Владислава Васильєва 
+ */
 public class Manager extends Employee {
+    /**
+     * Клас який описує Менеджера 
+     * @param employees співробітники, якими керує менеджер 
+     * @param name Прізвище та ім'я
+     * @param jobTitle посада 
+     * @param level розряд або категорія 
+     * @param dept відділ, де працює менеджер 
+     */
 
     public Manager(Employee[] employees, String name, String jobTitle, int level, String dept) {
         super(name, jobTitle, level, dept);

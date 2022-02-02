@@ -1,5 +1,18 @@
 package domain;
+/**
+ * Клас, який описує редактора
+ * @author Владислава Васильєва
+ */
 public class Editor extends Artist {
+    /**
+     * Клас який описує інформацію про редактора 
+     * @param electronicEditing Чи вміє працювати з папером 
+     * @param skiils Навички
+     * @param name Прізвище та ім'я
+     * @param jobTitle Посада 
+     * @param level розряд чи категорія 
+     * @param dept відділ, де працює редактор 
+     */
 
     public Editor(boolean electronicEditing, String[] skiils, String name, String jobTitle, int level, String dept) {
         super(skiils, name, jobTitle, level, dept);
@@ -32,6 +45,9 @@ public class Editor extends Artist {
             
     }
 
+    /**
+     * true якщо редактор надає перевагу роботі з папером 
+     */
     private boolean electronicEditing;
 
     public boolean getPreferences() {

@@ -1,6 +1,17 @@
 package domain;
-
+/**
+ * Клас, який описує художника(Артиста)
+ * @author Владислава Васильєва 
+ */
 public class Artist extends Employee {
+    /**
+     * Клас який описує інформацію про Артиста  
+     * @param skiils навички співробітника
+     * @param name ім'я
+     * @param jobTitle посада співробітника
+     * @param level розряд або категорія 
+     * @param dept відділ, де він працює 
+     */
 
     public Artist(String[] skiils, String name, String jobTitle, int level, String dept) {
         super(name, jobTitle, level, dept);
